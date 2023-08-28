@@ -79,3 +79,14 @@ SELECT  [ProductKey] as [Product Key]
   WHERE LEFT (OrderDateKey, 4) BETWEEN 2019 AND 2021
   ORDER BY 1 ASC
 ```
+
+## Data Model
+Below is the screenshot of data model after being cleaned and prepared tables were read in Power BI.
+![The screenshot of the data model](/assets/images/Relation%20Management.png)
+
+## Sales Management Dashboard
+This is a one page dashboard, combining visuaklisations that shows sales over time, per customers, and products
+![Dash board images](/assets/images/Tableau%20dashbord.png)
+
+[See this link for the dashboard](/Sales.pbix)
+
