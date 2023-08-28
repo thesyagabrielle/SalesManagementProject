@@ -9,9 +9,11 @@ Based on the request that was made, user stories were defined to fulfil delivery
 | As a sales representative, I want a detailed overview of Internet sales so that I can follow up with my customers who buy the most and who can sell more to | A Power BI dashboard that allows me to filter data for each customer |
 | As a sales representative, I want an overview of Internet Sales per product so that I can see the products that have the most sales | A Power BI dashboard that allows me to filter data for each Product |
 | As a sales manager, I want a dashboard overview of internet sales so that I can track the sales and budget | Power BI dashboard with graphs comparing sales against budget|
+<br />
 
 ## Dataset
 AdventureWorks database is chosen as the dataset. It is a sample database developed by Microsoft.
+<br />
 
 ## Data Cleansing & Transformation (SQL)
 Structured Query Language (SQL) to create a table used for the data model for data analysis to fulfil the business needs defined in the user stories.
@@ -79,10 +81,12 @@ SELECT  [ProductKey] as [Product Key]
   WHERE LEFT (OrderDateKey, 4) BETWEEN 2019 AND 2021
   ORDER BY 1 ASC
 ```
+<br />
 
 ## Data Model
 Below is the screenshot of data model after being cleaned and prepared tables were read in Power BI.
 ![The screenshot of the data model](/assets/images/Relation%20Management.png)
+<br />
 
 ## Sales Management Dashboard
 This is a one page dashboard, combining visuaklisations that shows sales over time, per customers, and products
